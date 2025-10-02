@@ -11,14 +11,14 @@ const pokemon = {
 };
 
 do {
- 
+
   pokemon.nombre = prompt("Ingrese el nombre del Pokémon:");
   pokemon.nivel = Number(prompt("Ingrese el nivel del Pokémon:"));
 
   
   pokemones.push(pokemon);
   let terminar = prompt("¿Desea cargar otro Pokémon? (si/no)");
- 
+
   seguir_cargando = false;
   if (terminar === "si") {
     seguir_cargando = true;
