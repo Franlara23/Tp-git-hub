@@ -29,6 +29,15 @@ let pokemones = [
     hp_total: 44,
     evolucion: true,
   },
+  {
+    nombre: "charizard",
+    nivel: 8,
+    tipo: ["fuego", "volador"],
+    foto: "squirtle.png",
+    hp: 44,
+    hp_total: 44,
+    evolucion: true,
+  }
 ];
 
 // Menú de interacción
