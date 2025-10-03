@@ -37,7 +37,16 @@ let pokemones = [
     hp: 44,
     hp_total: 44,
     evolucion: true,
-  }
+  },
+  {
+    nombre: "Gengar",
+    nivel: 15,
+    tipo: ["Fantasma, Veneno"],
+    foto: "Gengar.png",
+    hp: 40,
+    hp_total: 45,
+    evolucion: true,
+  },
 ];
 
 // Menú de interacción
